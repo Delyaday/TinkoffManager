@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinkoffManager", "TinkoffManager\TinkoffManager.csproj", "{CA923D2D-4FEA-4ABB-BD57-74E3515AF7AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA923D2D-4FEA-4ABB-BD57-74E3515AF7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA923D2D-4FEA-4ABB-BD57-74E3515AF7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA923D2D-4FEA-4ABB-BD57-74E3515AF7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA923D2D-4FEA-4ABB-BD57-74E3515AF7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC52DF1A-7C1B-447B-8A6F-925BD3C94C03}
+	EndGlobalSection
+EndGlobal
