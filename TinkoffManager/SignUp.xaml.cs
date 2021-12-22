@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using TinkoffManager.Models;
+
 namespace TinkoffManager
 {
     /// <summary>

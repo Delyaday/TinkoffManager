@@ -1,1 +1,1 @@
-Type your Tinkoff token
+type your Tinkoff token

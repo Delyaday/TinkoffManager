@@ -23,10 +23,10 @@ Title="User Page" Height="450" Width="800" WindowStartupLocation="CenterScreen" 
 
                 <StackPanel Grid.Row="0" HorizontalAlignment="Stretch" Height="90" Margin="10" Orientation="Horizontal">
                     <Image Source="1.png" Width="85" Height="90"/>
-                    <Button x:Name="showInfo" Width="240" Height="45" Margin="195 0" Click="showInfo_Click" Content="Show my investment portfolio"/>
+                    <!--<Button x:Name="showInfo" Width="240" Height="45" Margin="195 0" Click="showInfo_Click" Content="Show my investment portfolio"/>-->
                 </StackPanel>
 
-                <ListBox x:Name="myListBox" Grid.Row="1" HorizontalContentAlignment="Stretch" VerticalAlignment="Stretch">
+                <ListBox x:Name="myListBox" Grid.Row="1" HorizontalContentAlignment="Stretch" VerticalAlignment="Stretch" ItemsSource="{Binding Portfolio.Positions}">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <Grid Margin="35 0 10 50">

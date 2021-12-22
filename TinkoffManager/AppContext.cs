@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using TinkoffManager.Models;
+
 namespace TinkoffManager
 {
     public class AppContext :DbContext

@@ -1,4 +1,4 @@
-﻿namespace TinkoffManager
+﻿namespace TinkoffManager.Models
 {
     public class User
     {
